@@ -1,16 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 
 .menu{
-    
     width: 1136px;
     height: 88px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
     margin: auto;
     border: solid 2px black;
 }
-.img-estrela{
-    width: 22px;
-    height: 22px;
+.nome{
+    width: 494px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-family: 'Nova Round', cursive;
+    color: #464646;
+}
+img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.links-scroll-pagina{
+    width: 642px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    font-family:'Nova Round', cursive;
+    color: #464646;
+    font-weight: 500;
+}
+
+ul, li{
+    float: left;
+    margin-right: 22px;
+}
+#contato{
+   font-weight: 700;
+   color: #464646;
+}
+.introducao{
+    width: 1136px;
+    height: 400px;
+    margin:auto;
+    margin-top: 32px;
+
+    border: solid 2px blue;
 }
