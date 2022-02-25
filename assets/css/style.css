@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+.menu{
+    
+    width: 1136px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    border: solid 2px black;
+}
+.img-estrela{
+    width: 22px;
+    height: 22px;
+}
