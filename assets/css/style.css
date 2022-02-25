@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 
+body{
+    font-family:'Nova Round', cursive;
+    color:  #464646;
+}
+
 .menu{
     width: 1136px;
     height: 88px;
@@ -7,7 +12,7 @@
     flex-direction: row;
     align-items: center;
     margin: auto;
-    border: solid 2px black;
+    
 }
 .nome{
     width: 494px;
@@ -17,37 +22,110 @@
     align-items: center;
     justify-content: flex-start;
     font-weight: 700;
-    font-family: 'Nova Round', cursive;
-    color: #464646;
+   
 }
 img{
     width: 24px;
     height: 24px;
     margin-right: 8px;
 }
+
 .links-scroll-pagina{
     width: 642px;
     height: 19px;
     display: flex;
     flex-direction: row;
-    font-family:'Nova Round', cursive;
-    color: #464646;
     font-weight: 500;
 }
+
 
 ul, li{
     float: left;
     margin-right: 22px;
+    line-height: 24px;    
 }
+
 #contato{
    font-weight: 700;
-   color: #464646;
+  
 }
 .introducao{
     width: 1136px;
-    height: 400px;
+    height: 368px;
     margin:auto;
     margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
 
-    border: solid 2px blue;
+.apresentacao{
+    width: 751px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.texto-titulo-apresentacao{
+    width: 751px;
+    height: 122px;
+    line-height: 61px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.breve-apresentacao{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.links-redes-sociais{
+    width: 517px;
+    height: 24px;
+    font-weight: 500;
+          
+}
+
+.foto-perfil{
+    width: 368px;
+    height: 368px;    
+    margin-left: 17px;
+}
+
+.area-foto{
+    width: 368px;
+    height: 368px;
+    border-radius: 200px;
+    background-color: rgb(12, 233, 233);
+}
+main{
+    margin-top: 32px;
+    height: 383px;
+}
+.sobre-mim{
+    width: 1136px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: solid 2px black;
+    margin: auto;
+
+}
+.sober-mim-titulo{
+    width: 167px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+.area-texto{
+    width: 751px;
+    height: 133px;
+    text-align:left;
 }
