@@ -179,3 +179,25 @@ main{
     margin-bottom: 8px;
 }
 
+.formacao-academica{
+    border: solid 2px black;
+}
+
+.formacao-academica__titulo{
+    font-size: 32px;
+    font-weight:700;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.formacao-academica__instituicao{
+   display: flex;
+   justify-content: center;
+}
+
+.formacao-academica__logoEestatus{
+    width:368px ;
+    height: 347px;
+    border: dashed 2px black;
+    margin-left: 16px;
+}
