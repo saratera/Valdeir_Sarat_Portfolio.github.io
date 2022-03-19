@@ -180,7 +180,8 @@ main{
 }
 
 .formacao-academica{
-    border: solid 2px black;
+   
+    margin-bottom: 88px;
 }
 
 .formacao-academica__titulo{
@@ -196,8 +197,70 @@ main{
 }
 
 .formacao-academica__logoEestatus{
-    width:368px ;
-    height: 347px;
+    width:268px ;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: dashed 2px black;
     margin-left: 16px;
+}
+
+
+
+.experiencia-profissional__titulo{
+    font-size: 32px;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 32px;
+   
+}
+.experiencia-profissional__areaProjetos{
+    height: 406px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inverter{
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+.experiencia-profissional__projeto{
+    height: 406px;
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;   
+}
+
+
+
+.experiencia-profissional__demo{
+    width: 752px;
+    height: 406px;
+}
+
+.experiencia-profissional__informacoes{
+    margin-left: 16px;  
+    margin-right: 16px; 
+}
+
+.btn-demo{
+    width: 105px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: #fff;
+    border: solid 1px #2A7AE4;
+}
+.btn-repositorio{
+    width: 116px;
+    height: 51px;
+    color: #2A7AE4;
+    background-color: #fff;
+    border: solid 1px #2A7AE4;
 }
