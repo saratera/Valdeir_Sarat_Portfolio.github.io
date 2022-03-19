@@ -207,6 +207,13 @@ main{
 }
 
 
+.experiencia-profissional{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
 
 .experiencia-profissional__titulo{
     font-size: 32px;
@@ -215,29 +222,19 @@ main{
     margin-bottom: 32px;
    
 }
-.experiencia-profissional__areaProjetos{
-    height: 406px;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.inverter{
-    flex-direction: row-reverse;
-}
-
-
-
 
 
 .experiencia-profissional__projeto{
     height: 406px;
-    justify-content:space-around;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin-bottom: 64px;   
 }
-
+.inverter{
+    flex-direction: row-reverse;
+}
 
 
 .experiencia-profissional__demo{
@@ -246,8 +243,9 @@ main{
 }
 
 .experiencia-profissional__informacoes{
-    margin-left: 16px;  
-    margin-right: 16px; 
+    margin-left: 16px;
+    margin-right: 16px;  
+   
 }
 
 .btn-demo{
