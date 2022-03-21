@@ -11,6 +11,7 @@ body{
     height: 88px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin: auto;
     
@@ -311,4 +312,22 @@ main{
 
 footer{
     text-align: center;
+}
+
+/*tablete*/
+@media screen and (max-width: 768px) {
+    .menu{
+        padding: 16px 32px;
+        
+    }
+    .links-scroll-pagina nav ul li{
+        display: none;
+    }
+    .links-scroll-pagina nav ul li:last-child {
+        display: block;       
+    }
+    .links-scroll-pagina{
+        justify-content: flex-end;
+    }
+    
 }
