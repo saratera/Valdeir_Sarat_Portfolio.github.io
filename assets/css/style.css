@@ -10,14 +10,12 @@ body{
     height: 88px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
     
 }
-.nome{
-    width: 494px;
-    height: 88px;
+.nome{   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,9 +29,7 @@ img{
     margin-right: 8px;
 }
 
-.links-scroll-pagina{
-    width: 642px;
-    height: 19px;
+.links-scroll-pagina{   
     display: flex;
     flex-direction: row;
     font-weight: 500;
@@ -103,7 +99,7 @@ ul, li{
 main{
     margin-top: 32px;
     display: flex;
-    height: 383px;
+    height: auto;
     justify-content: center;
 
 }
@@ -132,14 +128,16 @@ main{
 }
 
 .skills{
+    width: 1136px;
     margin-top: 32px;
     display: flex;
     justify-content: center;
     margin-bottom: 88px;
 }
 .skill__area{
-    height: 244px;
+    height: auto;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     
 
@@ -157,7 +155,7 @@ main{
     height: 174px;
     margin-top: 32px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
    
       
 }
@@ -245,6 +243,7 @@ main{
 }
 
 .experiencia-profissional__informacoes{
+    
     margin-left: 16px;
     margin-right: 16px;  
    
@@ -311,6 +310,212 @@ footer{
     text-align: center;
 }
 
-/*tablete
-@media screen and (max-width: 768px) {
-}*/
+/*tablete*/
+@media screen and (max-width: 1150px) and (min-width:730px){
+    
+    .links-scroll-pagina nav ul :nth-child(n){
+        display: none;
+    }
+    .links-scroll-pagina nav ul :last-child{
+        display: block;
+    }
+    .apresentacao {
+        width: 524px;
+        height: 130px;
+    }
+    .texto-titulo-apresentacao{
+        width: 524px;
+        height: 52px;
+        line-height: 26px;
+        font-size: 22px;
+    }
+    .breve-apresentacao{
+        font-size: 16px;
+    }
+    .foto-perfil{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .area-foto{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .sober-mim-titulo{
+        font-size: 22px;
+    }
+    .sobre-mim{
+        width: 704px;     
+        height: 222px;
+        font-size: 14px;
+    }
+
+    .area-texto{
+        width: 560px;
+        height: 112px;
+        font-size: 14px;
+    }
+
+    .skills{
+        width: auto;
+    }
+    .skill__area{
+        width: 704px;
+        justify-content: center;
+    }
+    
+    .skill__titulo{
+        font-size: 22px;
+    }
+
+    .skill__img{
+        width: 704px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 32px
+    }
+    .skill__igmArea{
+        width: 225px;   
+        height: 118px;       
+      
+    }
+    .skill_imgArea--icone{
+        width: 24px;
+        height: 37px;
+    }
+    .formacao-academica__titulo{
+        font-size: 22px;
+    }
+    .formacao-academica__logoEestatus{
+        width: 224px;
+        height: 169px;
+        align-items: center;
+    }
+
+    .experiencia-profissional{
+        margin-bottom: 40px;
+    }
+
+    .experiencia-profissional__titulo{
+        font-size: 22px;
+    }
+    .experiencia-profissional__projeto {
+        flex-direction: column;
+        margin-bottom: 32px; 
+    }
+
+    .experiencia-profissional__demo{
+        width: 600px;
+        
+    }
+
+    .experiencia-profissional__informacoes{
+        margin-top: 18px;
+        justify-content:flex-start;
+    }
+
+    .contato__img{
+        display: none;
+    }
+}
+
+/* celular*/
+@media screen and (max-width:729px) and (min-width: 600px){
+
+    .links-scroll-pagina nav ul :nth-child(n){
+        display: none;
+    }
+    .links-scroll-pagina nav ul :last-child{
+        display: block;
+    }
+
+    .foto-perfil{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .area-foto{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .apresentacao {
+       width: 328px;
+    }  
+    
+    .texto-titulo-apresentacao{
+        width: 328px;
+        height: 52px;
+        line-height: 16.44px;
+        font-size: 14px;
+    }
+
+    .sobre-mim{
+        width: 500px;     
+        height: 222px;
+        font-size: 14px;
+    }
+    .area-texto{
+        width: auto;
+    }
+    .skills{
+        width: auto;
+    }
+    .skill__area{
+        width: 500px;
+        justify-content: center;
+    }
+    .skill__img{
+        width: 500px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 32px
+    }    
+    .skill__igmArea{
+        flex-wrap: wrap;
+        width: 156px;   
+        height: 118px;       
+      
+    }
+    .formacao-academica__instituicao{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .formacao-academica__logoEestatus{
+        width: 300px;
+        height: 150px;
+        margin-bottom: 16px;
+    }
+
+    .experiencia-profissional__projeto{
+        height: auto;
+    }
+
+    .experiencia-profissional__demo{
+        width: 320px;
+        height: 165px;
+    }
+
+    .contato__img{
+        display: none;
+    }
+    .contato__titulo{
+        font-size: 22px;
+    }
+
+    .contato__formularioInput{
+        width: 520px;
+    }
+    .contato__mensagem{
+        width: auto;
+    }
+
+}
+@media screen and (max-width:600px) and (min-width: 360px){
+    .experiencia-profissional__projeto{
+        flex-direction: column;
+    }
+}
