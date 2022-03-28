@@ -492,11 +492,16 @@ footer{
 
     .experiencia-profissional__projeto{
         height: auto;
+        flex-direction: column;
     }
 
     .experiencia-profissional__demo{
         width: 320px;
         height: 165px;
+    }
+
+    .experiencia-profissional__informacoes{
+        margin-top: 16px;
     }
 
     .contato__img{
@@ -515,7 +520,314 @@ footer{
 
 }
 @media screen and (max-width:600px) and (min-width: 360px){
+    .links-scroll-pagina nav ul :nth-child(n){
+        display: none;
+    }
+    .links-scroll-pagina nav ul :last-child{
+        display: block;
+    }
+    .foto-perfil{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .area-foto{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .apresentacao {
+       width: 350px;
+    }  
+    .breve-apresentacao{
+        font-size: 14px;
+    }
+
+    .links-redes-sociais ul li{
+        font-size: 14px;
+    }
+    img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .texto-titulo-apresentacao{
+        width: auto;
+        height: 52px;
+        line-height: 16.44px;
+        font-size: 14px;
+    }
+
+    .sobre-mim{
+        width: 350px;     
+        height: auto;
+        font-size: 14px;
+    }
+
+    .sober-mim-titulo{
+        font-size: 22px;
+    }
+
+    .area-texto{
+        width: auto;
+    }
+    .introducao{
+        flex-direction: column-reverse;
+        
+    }
+
+    .skills{
+        width: auto;
+        
+    }
+
+    .skill__titulo{
+        font-size: 22px;
+        margin-top: 32px;
+    }
+
+    .skill__area{
+        width: 350px;
+        justify-content: center;
+    }
+    .skill__img{
+        width: 350px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 32px
+    }    
+    .skill__igmArea{
+        flex-wrap: wrap;
+        width: 156px;   
+        height: 118px;      
+    }
+
+    .skill_imgArea--icone{
+        width: 30px;
+        height: 30px;
+    }
+
+    .formacao-academica__titulo{
+        font-size: 22px;
+    }
+
+    .formacao-academica__instituicao{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .formacao-academica__logoEestatus{
+        width: 300px;
+        height: 150px;
+        margin-bottom: 16px;
+    }
+
     .experiencia-profissional__projeto{
+        height: auto;
         flex-direction: column;
     }
+
+    .experiencia-profissional__titulo{
+        font-size: 22px;
+    }
+
+    .experiencia-profissional__demo{
+        width: 320px;
+        height: 165px;
+    }
+
+    .experiencia-profissional__informacoes{
+        margin-top: 16px;
+    }
+
+    .contato__img{
+        display: none;
+    }
+
+    .contato__titulo{
+        font-size: 22px;
+        
+    }
+
+    .contato__formularioInput{
+        width: 320px;
+    }
+    .contato__mensagem{
+        width: auto;
+    }
+    .contato{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width:360px){
+
+    .menu{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 30px;
+        
+    }
+
+    .links-scroll-pagina nav ul :nth-child(n){
+        display: none;
+    }
+    .links-scroll-pagina nav ul :last-child{
+        display: block;
+        margin-top: 10px;
+    }
+    .foto-perfil{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .area-foto{
+        width: 146px;
+        height: 146px;
+       
+    }
+    .apresentacao {
+       width: 300px;
+    }  
+    .breve-apresentacao{
+        font-size: 14px;
+    }
+
+     nav{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    ul li{
+       
+        display: flex;
+        flex-wrap: wrap;       
+        font-size: 14px;
+    
+       
+    }
+    img {
+        width: 16px;
+        height: 16px;
+        margin-right:20px ;
+    }
+
+    .texto-titulo-apresentacao{
+        width: auto;
+        height: 52px;
+        line-height: 16.44px;
+        font-size: 14px;
+    }
+
+    .sobre-mim{
+        width: 300px;     
+        height: auto;
+        font-size: 14px;
+    }
+
+    .sober-mim-titulo{
+        font-size: 22px;
+    }
+
+    .area-texto{
+        width: auto;
+    }
+    .introducao{
+        flex-direction: column-reverse;
+        
+    }
+
+    .skills{
+        width: auto;
+        
+    }
+
+    .skill__titulo{
+        font-size: 22px;
+        margin-top: 32px;
+    }
+
+    .skill__area{
+        width: 300px;
+        justify-content: center;
+    }
+    .skill__img{
+        width: 300px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 32px
+    }    
+    .skill__igmArea{
+        flex-wrap: wrap;
+        width: 140px;   
+        height: 118px;      
+    }
+
+    .skill_imgArea--icone{
+        width: 30px;
+        height: 30px;
+    }
+
+    .formacao-academica__titulo{
+        font-size: 22px;
+    }
+
+    .formacao-academica__instituicao{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .formacao-academica__logoEestatus{
+        width: 290px;
+        height: 150px;
+        margin-bottom: 16px;
+    }
+
+    .experiencia-profissional__projeto{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .experiencia-profissional__titulo{
+        font-size: 22px;
+    }
+
+    .experiencia-profissional__demo{
+        width: 320px;
+        height: 165px;
+    }
+
+    .experiencia-profissional__informacoes{
+        margin-top: 16px;
+    }
+
+    
+
+    .contato__img{
+        display: none;
+    }
+
+    .contato__titulo{
+        font-size: 22px;
+        
+    }
+
+    .contato__formularioInput{
+        width: 300px;
+    }
+    .contato__mensagem{
+        width: auto;
+    }
+    .contato{
+        width: 300px;
+    }
+
+
 }
