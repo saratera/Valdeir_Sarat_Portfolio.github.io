@@ -252,17 +252,26 @@ main{
 .btn-demo{
     width: 105px;
     height: 51px;
-    background-color: #2A7AE4;
-    color: #fff;
+    background-color: #2A7AE4;   
     border: solid 1px #2A7AE4;
 }
 .btn-repositorio{
     width: 116px;
-    height: 51px;
-    color: #2A7AE4;
+    height: 51px;   
     background-color: #fff;
     border: solid 1px #2A7AE4;
 }
+
+.btn-demo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-repositorio a{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
 
 .contato{
     display: flex;
@@ -658,7 +667,14 @@ footer{
         width: auto;
     }
     .contato{
-        width: 350px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    .contato__area{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
 }
@@ -781,7 +797,7 @@ footer{
     .formacao-academica__instituicao{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+       
         
     }
     .formacao-academica__logoEestatus{
@@ -800,7 +816,7 @@ footer{
     }
 
     .experiencia-profissional__demo{
-        width: 320px;
+        width: 80vw;
         height: 165px;
     }
 
@@ -816,6 +832,8 @@ footer{
 
     .contato__titulo{
         font-size: 22px;
+        text-align: center;
+        margin-bottom: 32px;
         
     }
 
@@ -826,7 +844,14 @@ footer{
         width: auto;
     }
     .contato{
-        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contato__area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 
