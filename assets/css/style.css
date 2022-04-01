@@ -128,7 +128,7 @@ main{
 }
 
 .skills{
-    width: 1136px;
+    width: auto;
     margin-top: 32px;
     display: flex;
     justify-content: center;
@@ -196,13 +196,21 @@ main{
 
 .formacao-academica__logoEestatus{
     width:268px ;
-    height: 247px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: dashed 2px black;
+    text-align: justify;
     margin-left: 16px;
 }
+.formacao-academica__logoEestatusImg{
+    width: 200px;
+    height: 160px;
+}
+span{
+    font-weight: 700;
+    text-align: justify; 
+}
+
 
 
 .experiencia-profissional{
@@ -319,6 +327,10 @@ footer{
     text-align: center;
 }
 
+
+
+
+
 /*tablete*/
 @media screen and (max-width: 1150px) and (min-width:730px){
     
@@ -398,9 +410,12 @@ footer{
     }
     .formacao-academica__logoEestatus{
         width: 224px;
-        height: 169px;
         align-items: center;
     }
+
+    
+    
+
 
     .experiencia-profissional{
         margin-bottom: 40px;
@@ -495,7 +510,6 @@ footer{
     }
     .formacao-academica__logoEestatus{
         width: 300px;
-        height: 150px;
         margin-bottom: 16px;
     }
 
@@ -546,14 +560,19 @@ footer{
        
     }
     .apresentacao {
-       width: 350px;
+       width: auto;
+       padding-left: 20px;
     }  
     .breve-apresentacao{
         font-size: 14px;
     }
+    .links-redes-sociais{
+        width: auto;
+    }
 
     .links-redes-sociais ul li{
         font-size: 14px;
+        margin-bottom: 15px;
     }
     img {
         width: 16px;
@@ -562,7 +581,7 @@ footer{
 
     .texto-titulo-apresentacao{
         width: auto;
-        height: 52px;
+        height: 5px;
         line-height: 16.44px;
         font-size: 14px;
     }
@@ -629,7 +648,6 @@ footer{
     }
     .formacao-academica__logoEestatus{
         width: 300px;
-        height: 150px;
         margin-bottom: 16px;
     }
 
@@ -655,13 +673,18 @@ footer{
         display: none;
     }
 
+    .contato__area p{
+        margin-bottom: 10px;
+    }
     .contato__titulo{
         font-size: 22px;
+        text-align: center;
+        margin-bottom: 10px;
         
     }
 
     .contato__formularioInput{
-        width: 320px;
+        width: auto;
     }
     .contato__mensagem{
         width: auto;
@@ -675,6 +698,10 @@ footer{
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .btn-mensagem{
+        width: auto;
     }
 
 }
@@ -802,7 +829,6 @@ footer{
     }
     .formacao-academica__logoEestatus{
         width: 290px;
-        height: 150px;
         margin-bottom: 16px;
     }
 
@@ -838,7 +864,7 @@ footer{
     }
 
     .contato__formularioInput{
-        width: 300px;
+        width: auto;
     }
     .contato__mensagem{
         width: auto;
@@ -852,6 +878,9 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .btn-mensagem{
+        width: auto;
     }
 
 
