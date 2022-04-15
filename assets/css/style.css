@@ -7,12 +7,17 @@ body{
 }
 
 .menu{
-    height: 88px;
+    height: 80px;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    position: fixed;
+    top: 0px;
+    background-color: #EDEDED;
+   
     
 }
 .nome{   
@@ -42,13 +47,21 @@ ul, li{
     margin-right: 20px;
     line-height: 24px;    
 }
+li, a{
+    text-decoration: none;
+    color:  #464646;
+}
+li, a:hover{
+    color: #2A7AE4 ;
+    transition: 2s;
+}
 
 #contato{
    font-weight: 700;
   
 }
 .introducao{
-    margin-top: 32px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,7 +137,7 @@ main{
 .area-texto{
     width: 751px;
     height: 133px;
-    text-align:left;
+    text-align:justify;
 }
 
 .skills{
@@ -263,6 +276,8 @@ span{
     background-color: #2A7AE4;   
     border: solid 1px #2A7AE4;
 }
+
+
 .btn-repositorio{
     width: 116px;
     height: 51px;   
