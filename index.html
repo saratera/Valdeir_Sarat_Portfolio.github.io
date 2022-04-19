@@ -40,7 +40,7 @@
                     <ul>
                         <li><a href="https://github.com/saratera"> Github</a><img  src="./assets/img/flecha.png" alt="flecha" ></li>
                         <li><a href="https://www.linkedin.com/in/valdeir-sarat/">Linkedin</a><img src="./assets/img/flecha.png" alt="flecha" ></li>
-                        <li>Currículo <img src="./assets/img/flecha.png" alt="flecha" ></li>
+                        <li><a href="./assets/pdf/Valdeir_Sarat.pdf" target="_blank">Currículo</a> <img src="./assets/img/flecha.png" alt="flecha" ></li>
                     </ul>
                 </nav>
             </div>
@@ -108,29 +108,26 @@
             <div class=" skill__titulo" id="hobbies"> Hobbies </div>
             <div class="skill__img">
                 <div class="skill__igmArea">
-                    <img class="skill_imgArea--icone" src="./assets/img/skill-Logo/css.svg" alt="" srcset="">
-                    <span>CSS</span>
+                    <img class="skill_imgArea--icone" src="./assets/img/skills-Hobbies/olimpycs_atletismo_icon-icons.com_68597.svg" alt="" srcset="">
+                    <span>Praticar esportes</span>
                 </div>
 
                 <div class="skill__igmArea">
-                    <img class="skill_imgArea--icone" src="./assets/img/skill-Logo/html.svg" alt="" srcset=""> 
-                    <span>HTML5</span>
+                    <img class="skill_imgArea--icone" src="./assets/img/skills-Hobbies/tv_black_24dp 1.svg" alt="" srcset=""> 
+                    <span>Assistir filmes</span>
                 </div>
 
                 <div class="skill__igmArea"> 
-                    <img class="skill_imgArea--icone" src="./assets/img/skill-Logo/javaScript.svg" alt="">
-                    <span>JavaScript</span>
+                    <img class="skill_imgArea--icone" src="./assets/img/skills-Hobbies/Vector.svg" alt="">
+                    <span>Cozinhar</span>
                 </div>
 
                 <div class="skill__igmArea"> 
-                    <img class="skill_imgArea--icone" src="./assets/img/skill-Logo/nodeJs.svg" alt="">
-                    <span>Node JS</span>
+                    <img class="skill_imgArea--icone" src="./assets/img/skills-Hobbies/game.svg" alt="">
+                    <span>Jogos</span>
                 </div>
 
-                <div class="skill__igmArea">
-                    <img class="skill_imgArea--icone" src="./assets/img//skill-Logo/mysql.svg" alt="" >
-                    <span>My Sql</span>
-                </div>
+              
             </div>
         </div>
     </section>
@@ -257,15 +254,16 @@
 
             <div class="contato__formulario">
                 <form action="">
+                    
                     <label for="">nome</label>
-                    <input type="text" name="" id="" class="contato__formularioInput">
+                    <input type="text" name="" id="" class="contato__formularioInput  teste"  data-nome>
                     <label for="">E-mail</label>
-                    <input type="email" name="" id="" class="contato__formularioInput">
+                    <input type="email" name="" id="" class="contato__formularioInput" data-email>
                     <label for="">assunto</label>
-                    <input type="text" name="" id="" class="contato__formularioInput">
+                    <input  type="text" name="" id="" class="contato__formularioInput" data-assunto>
                     <label for="">mensagem</label>
-                    <textarea name="" id="" cols="30" rows="10" class="contato__mensagem"></textarea>
-                    <button class="btn-mensagem">Enviar mensagem</button>
+                    <textarea name="" id="" cols="30" rows="10" class="contato__mensagem" data-mensagem></textarea>
+                    <button class="btn-mensagem" data-BtnEnviar>Enviar mensagem</button>
 
                 </form>
             </div>
@@ -277,8 +275,10 @@
     <footer>
         <p>Desenvolvido por Valdeir Sarat</p> 
         <span>2022</span>
+        
     </footer>
     
-    
+  
+    <script src="./assets/javascript/formularioContato.js"></script>
 </body>
 </html>

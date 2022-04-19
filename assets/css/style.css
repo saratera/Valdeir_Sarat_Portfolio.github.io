@@ -303,6 +303,9 @@ span{
     
     
 }
+label{
+    font-weight: 600;
+}
 .contato__img{
     width: 464px;
     height: 593px;
@@ -321,7 +324,7 @@ span{
     height: 56px;
     margin-bottom: 32px;
     border: none;
-   
+          
 }
 .contato__mensagem{
     width: 656px;
@@ -341,6 +344,7 @@ span{
 footer{
     text-align: center;
 }
+
 
 
 
