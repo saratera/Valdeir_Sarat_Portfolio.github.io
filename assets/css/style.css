@@ -98,16 +98,21 @@ li, a:hover{
 }
 
 .foto-perfil{
-    width: 368px;
+    width: 370px;
     height: 368px;    
     margin-left: 17px;
+   
+    
+    
 }
 
 .area-foto{
-    width: 368px;
-    height: 368px;
-    border-radius: 200px;
-    background-color: rgb(12, 233, 233);
+    width: 370;
+    height: 374px; 
+    background-image:url('../img/foto-perfil/foto-perfil2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
 }
 main{
     margin-top: 32px;
