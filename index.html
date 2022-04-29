@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+   
     <title>Valdeir Sarat</title>
 </head>
 <body>
@@ -253,16 +254,32 @@
             <p>Preencha o formulário e entrarei em contato o mais rápido possível</p>
 
             <div class="contato__formulario">
-                <form action="">
+                <form method="post">
                     
                     <label for="">nome</label>
-                    <input type="text" name="" id="" class="contato__formularioInput  teste"  data-nome>
+
+                    <input type="text"  class="contato__formularioInput"  data-nome>
+                    
+                    <span  class="aviso" data-nomeAviso>Campo nome está incorreto</span>
+                   
                     <label for="">E-mail</label>
-                    <input type="email" name="" id="" class="contato__formularioInput" data-email>
+                    
+                    <input type="email" name="" id="" class="contato__formularioInput" data-email placeholder="exemplo@exemplo.com" >
+                    
+                    <span  class="aviso" data-emailAviso>Campo e-mail está incorreto</span>
+                    
                     <label for="">assunto</label>
+                    
                     <input  type="text" name="" id="" class="contato__formularioInput" data-assunto>
+                   
+                    <span  class="aviso" data-avisoAssunto>Campo assunto está vazio</span>
+                    
                     <label for="">mensagem</label>
+                    
                     <textarea name="" id="" cols="30" rows="10" class="contato__mensagem" data-mensagem></textarea>
+                   
+                    <span  class="aviso" data-mensagemAviso>Campo mensagem está vazio</span>
+
                     <button class="btn-mensagem" data-BtnEnviar>Enviar mensagem</button>
 
                 </form>

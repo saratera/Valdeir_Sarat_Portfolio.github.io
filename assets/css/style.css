@@ -329,13 +329,21 @@ label{
     height: 56px;
     margin-bottom: 32px;
     border: none;
+    padding-left: 10px;
           
 }
+
+.contato__formularioInput:focus{
+  outline-color: #2A7AE4;
+}
+
 .contato__mensagem{
     width: 656px;
     height: 105px;
 }
-
+.contato__mensagem:focus{
+    outline-color: #2A7AE4;
+}
 
 .btn-mensagem{
     width: 165px;
@@ -345,6 +353,14 @@ label{
     border: solid 1px #2A7AE4;
     margin-top: 32px;
 }
+
+
+.aviso{
+    color: red;
+    display: none;
+    
+}
+
 
 footer{
     text-align: center;
