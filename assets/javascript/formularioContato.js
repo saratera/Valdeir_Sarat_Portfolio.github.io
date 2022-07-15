@@ -62,7 +62,7 @@ function validarMensagem(event){
 const btnEnviar = document.querySelector('[data-BtnEnviar]');
 btnEnviar.addEventListener('click', enviarEmail)
 function enviarEmail(){
-    alert('oi')
+    alert('Email não enviado. Ainda está em desenvolvimento essa Api')
 }
    
 
